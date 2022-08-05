@@ -1,6 +1,6 @@
 {
-	"name": "Deploy",
-	"description": "Wa Bot.",
+	"name": "IVF RAGANORK",
+	"description": "REX Bot.",
 	"keywords": [
 		"whatsapp",
 		"bot"
@@ -15,7 +15,7 @@
         },
         "ANTILINK_WARN": {
             "description": "Groups for antilink (JIDS)",
-            "required": false,
+            "required": true,
             "value":"jid,jid"
         },
         "READ_MESSAGES": {
@@ -34,14 +34,16 @@
             "value":""
         },
         "HEROKU_APP_NAME": {
-            "description": "Exact name which you gave at the top",
+            "description": "IVF RAGANORK",
             "required": true,
-            "value":""
+            "value":"IVF RAGANORK"
         },
         "STICKER_DATA": {
-            "description": "Name of stickers created using bot. Can also split using ;",
+            "description": "REX RAGANORK ;",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
+            "value":"rex ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
+            
+           
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -49,9 +51,9 @@
             "value":"off"
         },
         "BOT_NAME": {
-            "description": "Name of AI chatbot",
+            "description": "IVF REX90",
             "required": true,
-            "value":"Raganork"
+            "value":"IVF REX90"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
@@ -59,19 +61,19 @@
             "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
         },
         "MODE": {
-            "description": "Private or public",
+            "description": "public",
             "required": true,
-            "value":"private"
+            "value":"public"
         },
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"919074309534"
+            "value":"0773495092"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
             "required": false,
-            "value":"{pp} Active since {uptime}\n User:{sender}"
+            "value":"{pp} Hey Im Online {uptime}\n User:{IVF}"
         },
        "SESSION": {
             "description": "Your MD session",
